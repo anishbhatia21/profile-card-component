@@ -4,34 +4,50 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="style.css">
-  <title>Frontend Mentor | Order summary card</title>
+  <title>Frontend Mentor | Profile card component</title>
 </head>
 
 <body>
-  <div class="card">
-    <div class="main-image">
-      <img src="/images/illustration-hero.svg" alt="main-image">
-    </div>
-    <h3>Order Summary</h3>
-    <p>You can now listen to millions of songs, audiobooks, and podcasts on any
-      device anywhere you like!</p>
-    <div class="plan">
+  <main>
+    <div class="card">
+      <div class="main-image">
+        <img src="/images/bg-pattern-card.svg" alt="">
+      </div>
+      <div class="profile-pic">
+        <img src="/images/image-victor.jpg" alt="">
+      </div>
+      <div class="profile">
+        <h2 class="name">Victor Crest</h2>
+        <h2 class="age">26</h2>
+      </div>
+      <p class="place">London</p>
+      <div class="border"></div>
       <div class="info">
-      <img src="/images/icon-music.svg" alt="music icon">
-      <div class="disc">
-        <p class="annual">Annual Plan</p>
-        <p class="price">$59.99/year</p>
-      </div>
-      </div>
-      <div class="change">
-        <a href="#">Change</a>
+        <div class="followers">
+          <h1>80K</h1>
+          <p>Followers</p>
+        </div>
+        <div class="likes">
+          <h1>803K</h1>
+          <p>Likes</p>
+        </div>
+        <div class="photos">
+          <h1>1.4K</h1>
+          <p>Photos</p>
+        </div>
       </div>
     </div>
-    <button>Proceed to Payment</button>
-    <p class="cancel">Cancel Order</p>
+  </main>
+  <div class="bg-images">
+    <div class="bg-image-top">
+      <img src="/images/bg-pattern-top.svg" alt="">
+    </div>
+    <div class="bg-image-bottom">
+      <img src="/images/bg-pattern-bottom.svg" alt="">
+    </div>
   </div>
 </body>
 
